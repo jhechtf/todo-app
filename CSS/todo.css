@@ -1,0 +1,16 @@
+.column {
+	background: lightsteelblue;
+	height: 90vh;
+	margin-left: 10px;
+}
+
+.box {
+	background: lightgrey;
+	margin: 10px;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.h3 {
+	font-weight: 200;
+}
