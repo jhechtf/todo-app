@@ -18,3 +18,9 @@
 .box:hover {
 	background: white;
 }
+
+.descrip {
+	font-size: 14px;
+	padding-left: 10px;
+	color: dimgray;
+}
