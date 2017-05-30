@@ -11,6 +11,8 @@
 	padding-left: 10px;
 }
 
-.h3 {
-	font-weight: 200;
+.descrip {
+	font-size: 14px;
+	padding-left: 10px;
+	color: dimgray;
 }
