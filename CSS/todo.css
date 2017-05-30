@@ -11,8 +11,10 @@
 	padding-left: 10px;
 }
 
-.descrip {
-	font-size: 14px;
-	padding-left: 10px;
-	color: dimgray;
+.h1 {
+	margin-bottom: 100px;
+}
+
+.box:hover {
+	background: white;
 }
