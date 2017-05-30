@@ -11,6 +11,10 @@
 	padding-left: 10px;
 }
 
-.h3 {
-	font-weight: 200;
+.h1 {
+	margin-bottom: 100px;
+}
+
+.box:hover {
+	background: white;
 }
