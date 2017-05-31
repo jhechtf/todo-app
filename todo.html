@@ -3,71 +3,66 @@
 
 <head>
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="CSS/todo.css" />
-	<script src="JS/todo.js"></script>
+	<link rel="stylesheet" href="public/CSS/todo.css" />
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="public/JS/todo.js"></script>
 </head>
 
 <body>
 
 	<div class="container-fluid">
-		<h1>ToDo</h1>
-		<div class="row">
-			<div class="column col-sm-2">
-				<h3>Monday</h3>
-				<div class="box">
-					<label class="checkbox-inline"><input type="checkbox" value=""> to do</label>
-					<p class="descrip">to do to do to do to do to do</p>
-				</div>
-				<div class="box">
-					<label class="checkbox-inline"><input type="checkbox" value=""> to do</label>
-				</div>
-				<div class="box">
-					<label class="checkbox-inline"><input type="checkbox" value=""> to do</label>
-				</div>
-				<div class="box">
-					<label class="checkbox-inline"><input type="checkbox" value=""> to do</label>
-				</div>
-				<div class="box">
-					<label class="checkbox-inline"><input type="checkbox" value=""> to do</label>
-				</div>
-				<div class="box">
-					<label class="checkbox-inline"><input type="checkbox" value=""> to do</label>
-				</div>
-				<div class="box">
-					<label class="checkbox-inline"><input type="checkbox" value=""> to do</label>
-				</div>
-				<div class="box">
-					<label class="checkbox-inline"><input type="checkbox" value=""> to do</label>
+		<div class="navigation">
+			<h1>To do...</h1>
+		</div>
+		<div class="flex-container">
+			<div class="flex-col">Monday
+				<div class="flex-box">
+					<div class="title">
+						<input type="checkbox" value="">stuff to do</input>
+					</div>
+					<p class="description">description of stuff</p>
 				</div>
 			</div>
-			<div class="column col-sm-2">
-				<h3>Tuesday</h3>
-				<div class="box">
-					<label class="checkbox-inline"><input type="checkbox" value=""> to do</label>
-				</div>
-				<div class="box">
-					<label class="checkbox-inline"><input type="checkbox" value=""> to do</label>
-				</div>
-			</div>
-			<div class="column col-sm-2">
-				<h3>Wednesday</h3>
-				<div class="box">
-					<label class="checkbox-inline"><input type="checkbox" value=""> to do</label>
-				</div>
-				<div class="box">
-					<label class="checkbox-inline"><input type="checkbox" value=""> to do</label>
+			<div class="flex-col">Tuesday
+				<div class="flex-box">
+					<div class="title">
+						<input type="checkbox" value="">stuff to do</input>
+					</div>
+					<p class="description">description of stuff</p>
 				</div>
 			</div>
-			<div class="column col-sm-2">
-				<h3>Thursday</h3>
-				<div class="box">
-					<label class="checkbox-inline"><input type="checkbox" value=""> to do</label>
+			<div class="flex-col">Wednesday
+				<div class="flex-box">
+					<div class="title">
+						<input type="checkbox" value="">stuff to do</input>
+					</div>
+					<p class="description">description of stuff</p>
 				</div>
 			</div>
-			<div class="column col-sm-2">
-				<h3>Friday</h3>
+			<div class="flex-col">Thursday
+				<div class="flex-box">
+					<div class="title">
+						<input type="checkbox" value="">stuff to do</input>
+					</div>
+					<p class="description">description of stuff</p>
+				</div>
+			</div>
+			<div class="flex-col">Friday
+				<div class="flex-box">
+					<div class="title">
+						<input type="checkbox" value="">stuff to do</input>
+					</div>
+					<p class="description">description of stuff</p>
+				</div>
 			</div>
 		</div>
+	</div>
+	<div class="input-area">
+		<input placeholder="Title" id="title">
+		<textarea class="description-input" id="exampleTextarea" rows="3" id="description" placeholder="Description...."></textarea>
+		<button class="btn-primary btn-lg" style: "align-content:center">add</button>
+	</div>
+	</div>
 	</div>
 </body>
 

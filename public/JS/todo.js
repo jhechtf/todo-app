@@ -1,3 +1,3 @@
-function fetch_data() {
-
-};
+$(document).ready(function () {
+	console.log("ready!");
+});
