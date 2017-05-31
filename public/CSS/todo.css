@@ -5,3 +5,7 @@ body{
 body > .main{
   flex:1 1 80%;
 }
+
+.finished{
+  text-decoration:line-through;
+}
