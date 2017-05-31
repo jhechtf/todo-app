@@ -1,0 +1,23 @@
+{
+  "name": "To-Do-List-App",
+  "homepage": "https://github.com/CabreraRR/To-Do-List-App",
+  "description": "a todo list application",
+  "main": "todo.html",
+  "keywords": [
+    "todo"
+  ],
+  "authors": [
+    "roel cabrera"
+  ],
+  "license": "mit",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}
